@@ -1,0 +1,30 @@
+{
+  "name": "test_chat",
+  "version": "1.0.0",
+  "description": "Just a chat-test with socket.io and express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jespadas/chat_express.git"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "jespadas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jespadas/chat_express/issues"
+  },
+  "homepage": "https://github.com/jespadas/chat_express#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}
