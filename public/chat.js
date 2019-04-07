@@ -11,7 +11,7 @@ $(function() {
   let feedback = $("#feedback");
 
   // emit message
-  send_message.submit(function() {
+  send_message.click(function() {
     socket.emit("new_message", { message: message.val() });
   });
 
