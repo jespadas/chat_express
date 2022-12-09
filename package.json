@@ -23,7 +23,7 @@
   "homepage": "https://github.com/jespadas/chat_express#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nodemon": "^2.0.3",
     "socket.io": ">=2.4.0"
   },
